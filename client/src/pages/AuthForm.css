@@ -1,0 +1,38 @@
+/* AuthForm.css */
+.auth-form {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: center;
+    gap: 15px; /* Space between fields */
+    margin-top: 20px; /* Space from navbar */
+    max-width: 300px;
+    margin: 20px auto; /* Center the form on the page */
+}
+
+.auth-form input {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.auth-form button {
+    width: 100%; /* Full width for button */
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.auth-form button:hover {
+    background-color: #0056b3;
+}
+
+.auth-form input::placeholder {
+    color: #888;
+}

@@ -1,0 +1,21 @@
+/* BookListing.css */
+.book-entry {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.book-entry div {
+    margin-bottom: 5px;
+}
+
+.book-entry button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+.centered-heading {
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-weight: bold;
+}

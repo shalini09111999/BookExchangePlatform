@@ -79,6 +79,8 @@ JWT_SECRET=*******************
 EMAIL_USER=*******************
 EMAIL_PASS=*******************
 
+Add your details in **************
+
 5.`node index.js`
   run this command to start Server and run on http://localhost:5000 and Mango DB to connect
 
